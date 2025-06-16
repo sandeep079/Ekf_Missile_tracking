@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def simulate_ballistic_system(initial_state, time_steps, delta_t, K_interval, Q, R):
-    # Constants
+    # Constant
     g = 9.81  # Gravitational acceleration
     n_states = 7  # Number of states (x, y, z, vx, vy, vz, density gradient)
 
