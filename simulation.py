@@ -17,7 +17,7 @@ def simulate_ballistic_system(initial_state, time_steps, delta_t, K_interval, Q,
     lower_bounds = np.zeros((time_steps, n_states))
     upper_bounds = np.zeros((time_steps, n_states))
 
-    # Set initial interval estimates
+    # Set initial interval 
     lower_bounds[0] = initial_state - 0.1 * initial_state
     upper_bounds[0] = initial_state + 0.1 * initial_state
 
